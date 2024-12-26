@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-container {
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1px 10px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    margin-top: 5px;
+    position: relative;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.main-div {
+    margin-top: 180px;;;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    background-color: white;
+    /* margin-bottom: 10px; */
+    padding: 5px;;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px dotted black;
+    
+}
+
+li span {
+    flex: 1 0 100%;
+    
+    
+}
+li span:first-child {
+    flex: 0 0 auto;
+    text-align: left;
+    margin-right: 20px;
+    
+    
+}
+
+li .stacked-spans {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    
+    
+    
+}
+
+li .stacked-spans span {
+    flex: 0 0 auto; /* Ensure span elements only take the width needed by their content */
+}
+
+
+li .series {
+    font-size: 0.6em;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    
+
+    
+}
+
+li  .speciality {
+    font-size: 0.6em;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    
+    border: 1px solid black;
+
+    
+}
+li  .db-link {
+    font-size: 0.6em;
+    font-weight: bold;
+    background-color: lightcyan;
+    color: black;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    
+    border: 1px solid black;
+
+    
+}
+
+li .name {
+    font-size: 1em;
+    
+    
+}
+li .name2 {
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin-left: 80px;
+    
+    
+}
+
+li .boxed {
+    font-size: 0.6em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 5px;
+    
+}
+
+li .number {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.dc-heroes {
+    background-image: url(img/billboard_dc-comics.jpg);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+.marvel {
+    background-image: url(img/marvelbanner.jpg);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+.starwars {
+    background-image: url(img/starwars.jpg);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+.movies {
+    background-image: url(img/Funko-Pop-banner-768x243.jpg);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+
+.pncollected {
+    background-color: lightcoral;
+}
+
+.collected {
+    background-color: lightgreen;
+}
+.birthday {
+    background-color: darkorange;
+}
+.exclusive {
+    display: none;
+    background-color: black;
+    color: white;
+    border: 1px dotted white;
+}
+.moviebanner {
+    background-color: black;
+    color: black;
+    border: 1px solid darkorange;
+}
+
+
+
+
+/* Styles for screens smaller than 1280px */
+@media screen and (max-width: 1280px) {
+    li .series {
+      display: none;
+    }
+
+    
+
+    li .db-link {
+        display: none;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    z-index: 1000; /* Ensure the footer stays on top */
+    border-top: 5px solid black;
+    font-size: 0.6em;
+}
+
