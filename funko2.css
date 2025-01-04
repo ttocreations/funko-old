@@ -186,6 +186,11 @@ li .pnnumber {
     font-weight: bold;
     color: lightgreen;
 }
+li .pnnumber2 {
+    font-size: 1em;
+    font-weight: bold;
+    color: lightcoral;
+}
 
 .dc-heroes {
     background-image: url(img/billboard_dc-comics.jpg);
