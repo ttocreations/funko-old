@@ -64,7 +64,7 @@ body {
 }
 
 .main-div {
-    margin-top: 180px;;;
+    margin-top: 250px;;;
 }
 
 ul {
@@ -180,6 +180,11 @@ li .boxed {
 li .number {
     font-size: 1em;
     font-weight: bold;
+}
+li .pnnumber {
+    font-size: 1em;
+    font-weight: bold;
+    display: none;
 }
 
 .dc-heroes {
