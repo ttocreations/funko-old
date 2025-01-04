@@ -64,7 +64,7 @@ body {
 }
 
 .main-div {
-    margin-top: 250px;;;
+    margin-top: 400px;;;
 }
 
 ul {
@@ -184,7 +184,7 @@ li .number {
 li .pnnumber {
     font-size: 1em;
     font-weight: bold;
-    display: none;
+    font-display: none;
 }
 
 .dc-heroes {
